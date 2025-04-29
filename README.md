@@ -14,15 +14,19 @@ olive auto-opt --model_name_or_path deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B --
 ### Deepseek-R1-distill-qwen-1.5b
 - [Huggingface](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B)
 - Model size ~1.83gb
+- [Release 1](https://github.com/nathan-JJRplus/Mendix-ONNXGenAI-Models/releases/tag/1.0)
 ### Gemma3
 - [Huggingface](https://huggingface.co/google/gemma-3-1b-it)
 - Model size ~1.76gb
+- [Release 1](https://github.com/nathan-JJRplus/Mendix-ONNXGenAI-Models/releases/tag/1.0)
 ### Phi-2
 - [Huggingface](https://huggingface.co/microsoft/phi-2)
 - Model size ~2.03gb
+- [Release 1](https://github.com/nathan-JJRplus/Mendix-ONNXGenAI-Models/releases/tag/1.0)
 ### TinyLLama
 - [Huggingface](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)
 - Model size ~876mb
+- [Release 1](https://github.com/nathan-JJRplus/Mendix-ONNXGenAI-Models/releases/tag/1.0)
 
 ## Contribution
 If you want to add a model you've prebuilt to this library please make sure to include relative paths in `model_config.json` for `"model_path"` and `"additional_files"` 

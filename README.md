@@ -12,21 +12,46 @@ olive auto-opt --model_name_or_path deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B --
 ## Current library
 
 ### Deepseek-R1-distill-qwen-1.5b
-- [Huggingface](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B)
+- Commercial use? ✅
 - Model size ~1.83gb
-- [Release 1](https://github.com/nathan-JJRplus/Mendix-ONNXGenAI-Models/releases/tag/1.0)
-### Gemma3
-- [Huggingface](https://huggingface.co/google/gemma-3-1b-it)
-- Model size ~1.76gb
-- [Release 1](https://github.com/nathan-JJRplus/Mendix-ONNXGenAI-Models/releases/tag/1.0)
-### Phi-2
-- [Huggingface](https://huggingface.co/microsoft/phi-2)
-- Model size ~2.03gb
-- [Release 1](https://github.com/nathan-JJRplus/Mendix-ONNXGenAI-Models/releases/tag/1.0)
-### TinyLLama
-- [Huggingface](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)
-- Model size ~876mb
-- [Release 1](https://github.com/nathan-JJRplus/Mendix-ONNXGenAI-Models/releases/tag/1.0)
+- [Source](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B)
 
-## Contribution
-If you want to add a model you've prebuilt to this library please make sure to include relative paths in `model_config.json` for `"model_path"` and `"additional_files"` 
+### Gemma2b
+- Commercial use? ❌
+- Model size ~3.42gb
+- [Source](https://huggingface.co/google/gemma-2b)
+
+### Gemma3
+- Commercial use? ❌
+- Model size ~1.76gb
+- [Source](https://huggingface.co/google/gemma-3-1b-it)
+
+### Phi-1
+- Commercial use? ✅
+- Model size ~1.16gb
+- [Source](https://huggingface.co/microsoft/phi-1)
+
+### Phi-1.5
+- Commercial use? ✅
+- Model size ~1.16gb
+- [Source](https://huggingface.co/microsoft/phi-1_5)
+
+### Phi-2
+- Commercial use? ✅
+- Model size ~2.03gb
+- [Source](https://huggingface.co/microsoft/phi-2)
+
+### Qwen1.5-0.5B-Chat
+- Commercial use? ❌
+- Model size ~878mb
+- [Source](https://huggingface.co/Qwen/Qwen1.5-0.5B-Chat)
+
+### TinyLLama
+- Commercial use? ✅
+- Model size ~876mb
+- [Source](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)
+
+## Want a different model?
+Build it yourself using the ONNXRuntime-GenAI package [Tutorial](https://onnxruntime.ai/docs/genai/howto/build-model.html)
+
+Or, open a ticket in this repo, and I'll see what I can do 😄

@@ -16,11 +16,6 @@ olive auto-opt --model_name_or_path deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B --
 - Model size ~1.83gb
 - [Source](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B)
 
-### Gemma2b
-- Commercial use? ❌
-- Model size ~3.42gb
-- [Source](https://huggingface.co/google/gemma-2b)
-
 ### Gemma3
 - Commercial use? ❌
 - Model size ~1.76gb

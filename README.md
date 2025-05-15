@@ -9,7 +9,7 @@ Example command:
 olive auto-opt --model_name_or_path deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B --output_path ./deepseek-r1-distill-qwen-1.5B --device cpu --provider CPUExecutionProvider --precision int4 --use_model_builder --log_level 1
 ```
 
-## Current library
+## Current library [Download](https://github.com/nathan-JJRplus/Mendix-ONNXGenAI-Models/releases/tag/1.0)
 
 ### Deepseek-R1-distill-qwen-1.5b
 - Commercial use? ✅
@@ -40,6 +40,11 @@ olive auto-opt --model_name_or_path deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B --
 - Commercial use? ❌
 - Model size ~878mb
 - [Source](https://huggingface.co/Qwen/Qwen1.5-0.5B-Chat)
+
+### Qwen2-0.5B-Instruct
+- Commercial use? ✅
+- Model size ~822mb
+- [Source](https://huggingface.co/Qwen/Qwen2-0.5B-Instruct)
 
 ### TinyLLama
 - Commercial use? ✅
